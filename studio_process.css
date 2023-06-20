@@ -1,0 +1,35 @@
+/* COMO O STUDIO TRABALHA */
+
+.banner-studiotb {
+  margin: 10em 1.5em 3em 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__subtitulo-studiotb {
+  font-family: var(--fonte-primaria);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cor-branco);
+  text-align: center;
+  line-height: 1.5em;
+  padding: 1em;
+}
+
+.servicos-studiotb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+}
+
+.servico_titulo {
+  font-family: var(--fonte-primaria);
+  font-size: 24px;
+  color: var(--cor-branco);
+  display: flex;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 6em 2em 2em 2em;
+}
