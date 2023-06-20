@@ -107,10 +107,7 @@ body {
 /* EMPRESA */
 
 .banner_empresa {
-  display: flex;
   margin: 1.5em;
-  flex-direction: column;
-  align-items: center;
 }
 
 .banner_empresa-texto {
@@ -146,6 +143,7 @@ body {
   padding: 0 1em;
   border-radius: 20px;
   background-color: var(--cor-cinza-medio);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* SERVICOS */
@@ -170,12 +168,6 @@ body {
 
 /* BANNER FINAL */
 
-.banner_final {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
 .banner__titulo2 {
   font-family: var(--fonte-primaria);
   font-size: 34px;
@@ -197,6 +189,45 @@ body {
   line-height: 1.5em;
 }
 
-@media screen and (min-width: 1024px) {
-  /* EMPRESA */
+/*RODAPE*/
+
+.rodape {
+  border: transparent;
+  border-radius: 20px;
+  background-color: var(--cor-cinza-medio);
+
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-primaria);
+  font-weight: 500;
+  color: var(--cor-branco);
+  align-items: center;
+  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 1em;
+}
+
+.logo_rodape {
+  margin-top: 1em;
+  align-items: center;
+}
+
+.midias {
+  display: flex;
+  text-align: center;
+
+  align-items: center;
+  padding: 2em;
+  justify-content: space-around;
+}
+
+.midias_link {
+  text-decoration: none;
+  color: var(--cor-branco);
+  font-size: 16px;
+}
+
+.rodape p {
+  font-size: 12px;
+  padding: 2em;
+  text-align: center;
 }

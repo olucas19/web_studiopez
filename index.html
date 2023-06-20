@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="card_sanfona.css">
     <link rel="stylesheet" href="footer.css">
 
+
 </head>
 
 <body>
@@ -61,15 +62,15 @@
     </header>
 
     <!--BANNER INICIAL-->
-    <section class="banner_incial">
+    <section class="banner">
         <h1 class="banner__titulo">Transformamos ideias no melhor site para seu negócio.</h1>
         <button class="botao__projeto" onclick="pressButton()" onclick="">
             <a class="botao__projeto-link" href="">Comece seu projeto!</a>
         </button>
         <div class="container_arrow_e_whats">
-            <div class="arrow"><img src="img/seta_continue.svg"
+            <!-- <div class="arrow"><img src="img/seta_continue.svg"
                     alt="imagem que indica que a página continua para baixo">
-            </div>
+            </div>-->
             <div class="whats">
                 <a href="">
                     <img class="ico_whats" src="img/seta_vamosconversar.svg"
@@ -113,7 +114,7 @@
 
     </section>
 
-    <!--SERVICOS-->
+    <!--PEIXE COM FRASE CIRCULANDO-->
 
 
     <aside>
@@ -123,6 +124,8 @@
                 alt="Studio Pex - Desenvolvimento Web - Consultoria Web - Acessibilidade Web">
         </div>
     </aside>
+
+    <!--SERVICOS-->
 
     <section class="servicos">
         <h2 class="servico_titulo">Já que você está aqui, queremos responder duas perguntas que podem estar rodeano sua
@@ -139,27 +142,28 @@
                     <li class="card-content-item">Marketing e promoção</li>
                     <li class="card-content-item">Atendimento ao cliente</li>
                     <br>
-                    <p>Estes são apenas alguns pontos sobre a importância de se ter um site.</p>
+                    <p class="card-content-item">Estes são apenas alguns pontos sobre a importância de se ter um site.
+                    </p>
                 </ul>
             </div>
 
             <div class="card2" id="myCard2">
                 <button class="card_btn" onclick="toggleCard2()">Por onde começar?<br><img src="/img/sinal_mais.svg"
                         alt=""></button>
-                <div class="card-content2">
-                    <h4> Defina seus objetivos</h4>
-                    <h4>Registre um domínio</h4>
-                    <h4>Entre em contato com uma empresa para a construção do site</h4>
-                    <h4>Escolha um template ou design</h4>
-                    <h4>Crie o conteúdo</h4>
-                    <h4>Adicione funcionalidades extras</h4>
-                    <h4>Teste e otimize seu site</h4>
-                    <h4>Publique seu site</h4>
+                <ul class="card-content2">
+                    <li class="card-content-item"> Defina seus objetivos</li>
+                    <li class="card-content-item">Registre um domínio</li>
+                    <li class="card-content-item">Entre em contato com uma empresa para a construção do site</l>
+                    <li class="card-content-item">Escolha um template ou design</li>
+                    <li class="card-content-item">Crie o conteúdo</li>
+                    <li class="card-content-item">Adicione funcionalidades extras</li>
+                    <li class="card-content-item">Teste e otimize seu site</li>
+                    <li class="card-content-item">Publique seu site</li>
                     <br>
                     <p>Estes passos podem ser explicados detalhadamente por nossa equipe! Instruindo e desenvolvendo
                         todas
                         as etapas junto com você!</p>
-                </div>
+                </ul>
             </div>
     </section>
     </div>
@@ -167,35 +171,49 @@
 
     <!--CHAMADA FINAL-->
 
-    <section class="banner_final">
+    <section class="banner">
         <h2 class="banner__titulo2">Nos desafie!</h2>
         <p class="banner__subtitulo">Queremos trabalhar na criação de algo realmente único para você e sua empresa.</p>
-
-
         <button class="botao__projeto" onclick="pressButton()" onclick="">
             <a class="botao__projeto-link" href="">Comece seu projeto!</a>
         </button>
     </section>
 
+    <!-- <section class="banner_incial">
+        <h1 class="banner__titulo">Transformamos ideias no melhor site para seu negócio.</h1>
+        <button class="botao__projeto" onclick="pressButton()" onclick="">
+            <a class="botao__projeto-link" href="">Comece seu projeto!</a>
+        </button>
+        <div class="container_arrow_e_whats">
+            <div class="arrow"><img src="img/seta_continue.svg"
+                    alt="imagem que indica que a página continua para baixo">
+            </div>
+            <div class="whats">
+                <a href="">
+                    <img class="ico_whats" src="img/seta_vamosconversar.svg"
+                        alt="imagem que ao clicar redireciona para uma conversa no aplicativo WhatsApp">
+                </a>
+            </div>
+        </div>-->
+
     <!--FOOTER-->
 
     <section class="rodape">
 
-        <h2></h2>
+        <img class="logo_rodape" src="/img/logo.svg" alt="logomarca da empresa Studio Pez" width="200px" height="125px">
+
 
 
         <div class="midias">
-            <ul class="midias_lista">
-                <li class="midias_lista-link"></li>
-                <li class="midias_lista-link"></li>
-                <li class="midias_lista-link"></li>
-            </ul>
-        </div>
+            <a class="midias_link" href="">Instagram</a>
+            <a class="midias_link" href="">Contato</a>
 
+        </div>
+        <!--
         <p>Rua Alagoas, 792 - Londrina - PR - Brasil.
             43 | 3344 - 6315
         </p>
-        <a href="">contato@studiopez.com.br</a>
+        <a href="">contato@studiopez.com.br</a>-->
 
         <p>© Studio Pez. 2023.
             Todos os direitos reservados. Desenvolvido por Studio Pez. </p>
