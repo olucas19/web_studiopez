@@ -168,6 +168,12 @@ body {
 
 /* BANNER FINAL */
 
+.banner_final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .banner__titulo2 {
   font-family: var(--fonte-primaria);
   font-size: 34px;
@@ -187,6 +193,7 @@ body {
   color: var(--cor-branco);
   text-align: center;
   line-height: 1.5em;
+  padding: 0 1em;
 }
 
 /*RODAPE*/
@@ -202,7 +209,7 @@ body {
   font-weight: 500;
   color: var(--cor-branco);
   align-items: center;
-  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 1em 0;
   margin: 1em;
 }
 
@@ -213,21 +220,20 @@ body {
 
 .midias {
   display: flex;
-  text-align: center;
-
   align-items: center;
-  padding: 2em;
-  justify-content: space-around;
+  padding: 1.5em;
+  justify-content: space-between;
 }
 
 .midias_link {
   text-decoration: none;
   color: var(--cor-branco);
   font-size: 16px;
+  padding: 0 1em;
 }
 
 .rodape p {
   font-size: 12px;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
 }
