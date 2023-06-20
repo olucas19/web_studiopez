@@ -1,0 +1,116 @@
+/* COMO O STUDIO TRABALHA */
+
+.banner-contato {
+  margin: 8em 1.5em 3em 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__titulo-contato {
+  font-family: var(--fonte-primaria);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--cor-branco);
+  padding: 0 1em;
+  text-align: center;
+  line-height: 1.5em;
+  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner__subtitulo-contato {
+  font-family: var(--fonte-primaria);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cor-branco);
+  text-align: center;
+  line-height: 1.5em;
+  padding: 1em;
+}
+
+.servicos-contato {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vw;
+}
+
+/*CARDS E RODAPE*/
+
+.studio_process-briefing,
+.studio_process-wireframe,
+.studio_process-programacao,
+.studio_process-entrega {
+  border: transparent;
+  border-radius: 20px;
+  background-color: var(--cor-cinza-medio);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-primaria);
+  font-weight: 500;
+  color: var(--cor-branco);
+  align-items: center;
+  padding: 1em 0;
+  margin: 1em 1em 4em 1em;
+}
+
+.cards-briefing,
+.cards-wireframe,
+.cards-programacao,
+.cards-entrega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.cards_img {
+  margin-top: 1em;
+  align-items: center;
+}
+
+.cards_titulo {
+  font-size: 30px;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.cards-briefing,
+.cards-wireframe,
+.cards-programacao,
+.cards-entrega p {
+  font-size: 20px;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+/* BANNER FINAL */
+
+.banner_final-stdprocess {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner__titulo2-stdprocess {
+  font-family: var(--fonte-primaria);
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--cor-branco);
+  padding: 0 1em;
+  margin: 2.5em 0 0 0;
+  text-align: center;
+  line-height: 1.5em;
+  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.banner__subtitulo {
+  font-family: var(--fonte-primaria);
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cor-branco);
+  text-align: center;
+  line-height: 1.5em;
+  padding: 0 1em;
+}
