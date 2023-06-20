@@ -33,3 +33,53 @@
   line-height: 1.5em;
   margin: 6em 2em 2em 2em;
 }
+
+/*CARDS E RODAPE*/
+
+.studio_process-briefing,
+.studio_process-wireframe,
+.studio_process-programacao,
+.studio_process-entrega {
+  border: transparent;
+  border-radius: 20px;
+  background-color: var(--cor-cinza-medio);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-primaria);
+  font-weight: 500;
+  color: var(--cor-branco);
+  align-items: center;
+  padding: 1em 0;
+  margin: 1em;
+}
+
+.cards-briefing,
+.cards-wireframe,
+.cards-programacao,
+.cards-entrega {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.cards_img {
+  margin-top: 1em;
+  align-items: center;
+}
+
+.cards_titulo {
+  font-size: 30px;
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.cards-briefing,
+.cards-wireframe,
+.cards-programacao,
+.cards-entrega p {
+  font-size: 20px;
+  padding: 0 1em 1em 1em;
+  text-align: center;
+  line-height: 1.5em;
+}
