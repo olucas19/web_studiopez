@@ -38,6 +38,8 @@
 
   .banner__titulo-contato {
     font-size: 60px;
+    margin-top: 1em;
+    padding-bottom: 0.5em;
   }
 
   .banner__subtitulo-contato {

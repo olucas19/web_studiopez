@@ -1,9 +1,20 @@
 /* COMO O STUDIO TRABALHA */
 
 .banner-studiotb {
-  margin: 10em 1.5em 3em 1.5em;
+  margin: 8em 1.5em 3em 1.5em;
   display: flex;
   flex-direction: column;
+}
+
+.banner__titulo-studio {
+  font-family: var(--fonte-primaria);
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--cor-branco);
+  padding: 0 1em;
+  text-align: center;
+  line-height: 1.5em;
+  text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .banner__subtitulo-studiotb {
@@ -62,12 +73,13 @@
   font-size: 30px;
   padding: 1em;
   line-height: 1.5em;
+  color: var(--cor-verde);
 }
 
 .cards-briefing,
 .cards-wireframe,
 .cards-programacao,
-.cards-entrega p {
+.cards-entrega {
   font-size: 20px;
   padding: 0 1em 1em 1em;
   text-align: center;
@@ -84,7 +96,7 @@
 
 .banner__titulo2-stdprocess {
   font-family: var(--fonte-primaria);
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 700;
   color: var(--cor-branco);
   padding: 0 1em;
@@ -92,4 +104,39 @@
   text-align: center;
   line-height: 1.5em;
   text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 680px) {
+  .banner-studiotb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__subtitulo-studiotb {
+    font-size: 32px;
+  }
+
+  .continue {
+    width: 34.5px;
+    height: 177px;
+  }
+
+  .cards_titulo {
+    font-size: 40px;
+  }
+
+  .cards_texto {
+    font-size: 24px;
+    margin: 0 1em;
+  }
+
+  .cards_img {
+    width: 98px;
+    height: 110px;
+  }
+
+  .banner__titulo2-stdprocess {
+    font-size: 40px;
+  }
 }

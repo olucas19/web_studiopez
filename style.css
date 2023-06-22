@@ -42,7 +42,7 @@ body {
   font-weight: 700;
   color: var(--cor-branco);
   padding: 0 1em;
-  text-align: left;
+  text-align: center;
   line-height: 1.5em;
   text-shadow: 4px 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -75,17 +75,11 @@ body {
 .container_whats_arrow {
   display: flex;
   justify-content: center;
-  margin-top: 17em;
 }
 
 .arrow {
-  margin-left: 2em;
+  margin-top: 1em;
   animation: arrowMovement 1s infinite alternate;
-}
-
-.whats {
-  margin-right: 2em;
-  margin-top: -15em;
 }
 
 .ico_whats {
@@ -250,7 +244,7 @@ body {
 
   .banner__titulo {
     text-align: center;
-    margin: -1em 0 0 0;
+    margin: 0;
     font-size: 60px;
   }
 
