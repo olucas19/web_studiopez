@@ -26,3 +26,21 @@
   line-height: 1.5em;
   padding: 0 1em;
 }
+
+@media screen and (min-width: 680px) {
+  .banner-contato {
+    margin: 4em 1.5em 3em 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner__titulo-contato {
+    font-size: 60px;
+  }
+
+  .banner__subtitulo-contato {
+    font-size: 32px;
+  }
+}
