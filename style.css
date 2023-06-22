@@ -251,7 +251,7 @@ body {
   .banner__titulo {
     text-align: center;
     margin: -1em 0 0 0;
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .botao__projeto {
@@ -259,6 +259,9 @@ body {
     width: 30vw;
     justify-content: center;
     margin-top: 20px;
+  }
+
+  .logo_horizontal {
   }
 
   /*BANNER EMPRESA*/
@@ -270,19 +273,13 @@ body {
     flex-direction: column;
   }
 
-  .equipe_pez {
-    margin: 2em 4em;
+  .banner_empresa img {
+    width: 600px;
+    height: 142px;
   }
 
-  /*PEIXE COM FRASE CIRCULANDO*/
-
-  .peixe_circulando {
-    margin: -4em 0em;
+  .banner_empresa-texto {
+    margin: -1em 0em;
+    font-size: 40px;
   }
-
-  .container_peixe {
-    margin: ;
-  }
-
-  /*SERVICOS*/
 }
