@@ -26,7 +26,6 @@
 /**/
 
 .card2 {
-  border: 1px solid #ccc;
   width: 80vw;
   overflow: hidden;
   margin-top: 2em;
@@ -87,4 +86,14 @@
 /**/
 
 @media screen and (min-width: 680px) {
+  .card,
+  .card2 {
+    width: 50vw;
+    overflow: hidden;
+    margin-top: 2em;
+  }
+
+  .card_btn {
+    width: 100%;
+  }
 }
