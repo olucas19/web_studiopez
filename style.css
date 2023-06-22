@@ -147,7 +147,6 @@ body {
   padding: 0 1em;
   border-radius: 20px;
   background-color: var(--cor-cinza-medio);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* SERVICOS */
@@ -240,4 +239,50 @@ body {
   font-size: 12px;
   padding: 1em;
   text-align: center;
+}
+
+@media screen and (min-width: 680px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .banner__titulo {
+    text-align: center;
+    margin: -1em 0 0 0;
+    font-size: 50px;
+  }
+
+  .botao__projeto {
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /*BANNER EMPRESA*/
+
+  .banner_empresa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .equipe_pez {
+    margin: 2em 4em;
+  }
+
+  /*PEIXE COM FRASE CIRCULANDO*/
+
+  .peixe_circulando {
+    margin: -4em 0em;
+  }
+
+  .container_peixe {
+    margin: ;
+  }
+
+  /*SERVICOS*/
 }
