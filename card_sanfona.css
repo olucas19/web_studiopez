@@ -81,6 +81,7 @@
 
 .card-content-item {
   padding: 0.5em;
+  line-height: 1.5em;
 }
 
 /**/
@@ -95,5 +96,9 @@
 
   .card_btn {
     width: 100%;
+    font-size: 28px;
+  }
+
+  .card-content-item {
   }
 }
