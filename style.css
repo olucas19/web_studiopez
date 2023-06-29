@@ -52,7 +52,7 @@ body {
   border: none;
   color: var(--cor-cinza-escuro);
   border-radius: 20px;
-  padding: 1em 2em;
+  padding: 1em;
   margin: 2.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -159,7 +159,7 @@ body {
   display: flex;
   text-align: center;
   line-height: 1.5em;
-  margin: 6em 2em 2em 2em;
+  margin: 2em;
 }
 
 /* BANNER FINAL */
@@ -263,7 +263,6 @@ body {
     display: flex;
     width: 30vw;
     justify-content: center;
-    margin-top: 20px;
   }
 
   .logo_horizontal {
@@ -297,7 +296,7 @@ body {
     display: flex;
     text-align: center;
     line-height: 1.5em;
-    margin: ;
+    margin: 2em;
   }
 
   /*BANNER FINAL*/
@@ -319,5 +318,109 @@ body {
     line-height: 1.5em;
     padding: ;
     margin: 0 2em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8em 1.5em 3em 1.5em;
+  }
+
+  .banner__titulo {
+    text-align: center;
+    margin: 0;
+    font-size: 80px;
+    padding: 0 1em 0.25em 1em;
+    line-height: 1.25em;
+  }
+
+  .botao__projeto-link {
+    font-family: var(--fonte-primaria);
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro);
+    text-decoration: none;
+  }
+
+  .botao__projeto {
+    display: flex;
+    width: 30vw;
+    justify-content: center;
+  }
+
+  /*BANNER EMPRESA*/
+
+  .banner_empresa img {
+    width: 780px;
+    height: 184.6px;
+    margin-top: 4em;
+  }
+
+  .banner_empresa-texto {
+    margin: -1em 0em;
+    font-size: 40px;
+  }
+
+  .equipe_pez {
+    margin: 10em 6em 0 6em;
+    padding: 0 2em;
+    border-radius: 20px;
+    background-color: var(--cor-cinza-medio);
+  }
+
+  /*SERVICOS*/
+
+  .servico_titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 60px;
+    color: var(--cor-branco);
+    display: flex;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0 2em;
+  }
+
+  /*BANNER FINAL*/
+
+  .banner__titulo2 {
+    font-family: var(--fonte-primaria);
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--cor-branco);
+    margin-bottom: 0.5em;
+  }
+
+  .banner__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--cor-branco);
+    text-align: center;
+    line-height: 1.5em;
+    padding: ;
+    margin: 0 2em;
+  }
+
+  .banner_final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4em 0;
+  }
+
+  .banner__titulo2 {
+    font-size: 90px;
+  }
+
+  .banner__subtitulo {
+    margin: 0 4em;
+  }
+
+  /*RODAPE*/
+
+  .rodape {
   }
 }

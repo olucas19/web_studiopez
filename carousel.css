@@ -7,6 +7,7 @@
   border-width: 2px 0px;
   border-color: var(--cor-branco);
   align-items: center;
+  max-width: 100%;
 }
 
 #carousel-list {
@@ -32,5 +33,16 @@
   }
   100% {
     transform: translateX(-100%);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #carousel-list li {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-branco);
+    font-size: 60px;
+    font-weight: 300;
   }
 }

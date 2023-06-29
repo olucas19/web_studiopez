@@ -107,6 +107,12 @@
 }
 
 @media screen and (min-width: 680px) {
+  .banner__titulo-studio {
+    font-size: 60px;
+    padding-top: 0;
+    line-height: 1.25em;
+  }
+
   .banner-studiotb {
     display: flex;
     justify-content: center;
@@ -138,5 +144,46 @@
 
   .banner__titulo2-stdprocess {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banner__titulo-studio {
+    font-size: 90px;
+    padding-top: 0;
+    line-height: 1.25em;
+  }
+
+  .banner__subtitulo-studiotb {
+    font-size: 40px;
+    padding: 0 2em;
+  }
+
+  .banner__subtitulo-studiotb {
+    margin-top: ;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .banner__titulo2-stdprocess {
+    font-size: 60px;
+    padding: 0 2em;
+    margin: 0;
+  }
+
+  .cards_titulo {
+    font-size: 60px;
+    padding: 0;
+  }
+
+  .cards_texto {
+    font-size: 32px;
+    padding-top: 0.5em;
+  }
+
+  .banner_final-stdprocess {
+    margin: 10em 0;
   }
 }

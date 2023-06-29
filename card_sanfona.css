@@ -74,9 +74,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1em;
+  padding: 0.25em;
   cursor: pointer;
-  text-align: left;
+  text-align: center;
+  margin-left: 1em;
 }
 
 .card-content-item {
@@ -100,5 +101,30 @@
   }
 
   .card-content-item {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .card,
+  .card2 {
+    width: 50vw;
+    overflow: hidden;
+    margin-top: 2em;
+  }
+
+  .card_btn {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .card-content-item {
+    font-size: 24px;
+  }
+
+  .exp_btn {
+    width: 100px;
+    height: 100px;
+    padding-left: 1em;
   }
 }

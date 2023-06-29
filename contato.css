@@ -46,3 +46,12 @@
     font-size: 32px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .banner__titulo-contato {
+    font-size: 80px;
+    margin-top: 0;
+
+    padding-bottom: 0.5em;
+  }
+}

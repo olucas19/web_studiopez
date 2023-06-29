@@ -4,7 +4,7 @@
   align-items: center;
   position: fixed;
   top: 0;
-  width: 100vw;
+  width: 100%;
 }
 
 .cabecalho__menu-hamburguer {
@@ -34,6 +34,7 @@
   background-color: var(--cor-de-fundo-claro);
   padding-top: 6em;
   z-index: 9999;
+  list-style: none;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -70,4 +71,8 @@
   display: none;
 }
 
-/* BOTOES servicos */
+@media screen and (min-width: 1280px) {
+  .lista-menu {
+    height: 50%;
+  }
+}
